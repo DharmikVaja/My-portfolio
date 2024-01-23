@@ -1,13 +1,14 @@
 import React from "react";
-import bgImage from "../component/bgimg.jpg";
+import bgImage from "./bgimg1.jpg";
 // import App from "../App";
-import "./style.css";
-// import bgImg from "./bgimage.jpeg";
+// import "./style.css";
+import "./header.css";
+// import bgImg from "./bgimg1.jpg";
 
 function Header() {
   return (
-    <div>
-      <img className="ImageClass" src={bgImage} />
+    <div className="HeaderClass">
+      <image src={bgImage} alt="bg image" className="img-fluid" />
     </div>
   );
 }

@@ -1,0 +1,11 @@
+.bgImg {
+  opacity: 0.8;
+}
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.img-fluid {
+  background-image: url("./bgimg1.jpg");
+}

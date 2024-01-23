@@ -2,15 +2,17 @@ import React from "react";
 // import style from "./style.css";
 import App from "../App.js";
 import logo from "../component/MyLogo.png";
-// import "./navbar.css";
-import "./style.css";
+import "./navbar.css";
+import navbg from "./navbg.avif";
+// import "./style.css";
 
 function Navbar() {
   return (
     <>
       <nav
-        className=" navbar navbar-expand-lg  bg-primary "
+        className=" navbar navbar-expand-lg  bg-primary"
         style={{ backgroundColor: "white" }}
+        backgroundImage={{ navbg }}
       >
         <div className="container">
           <a className="navbar-brand" href="#">
@@ -37,7 +39,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link " href="#">
-                  About Me
+                  About
                 </a>
               </li>
               <li className="nav-item">

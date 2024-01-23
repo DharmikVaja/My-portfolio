@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+}
+.LogoImage {
+  height: 4rem;
+  width: 7rem;
+}
+
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.collapse {
+  justify-content: flex-end;
+  font-weight: 500;
+  font-size: larger;
+  /* cursor: pointer; */
+}
+.collapse > nav-item {
+  cursor: pointer;
+}
+
+.nav-item :hover,
+.nav-item:active {
+  color: darkred;
+  font-size: 1.3rem;
+}
