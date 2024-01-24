@@ -1,10 +1,12 @@
 import React from "react";
 // import style from "./style.css";
-import App from "../App.js";
+import App from "../../App";
 import logo from "../../Resources/MyLogo.png";
 import "./navbar.css";
-import navbg from "../../Resources/navbg.jpeg";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import Navbg from "../../Resources/navbg.jpeg";
+import Navbg from "../../Resources/navbg.jpeg";
+// import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+// import '../../styles/bootstrap.min.css';
 
 function Navbar() {
   return (
@@ -12,7 +14,7 @@ function Navbar() {
       <nav
         className=" navbar navbar-expand-lg  bg-secondary"
         style={{ backgroundColor: "white" }}
-        backgroundImage={{ navbg }}
+        backgroundImage={{ Navbg }}
       >
         <div className="container">
           <a className="navbar-brand" href="#">

@@ -2,9 +2,10 @@
 // import "./App.css";
 import React from "react";
 // import "./component/style.css";
-import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import "./bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./component/Navbar/Navbar.js";
 import Header from "./component/Header/Header.js";
+// /bootstrap/dist/css/bootstrap.min.css
 
 function App() {
   return (
