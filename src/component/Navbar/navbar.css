@@ -24,4 +24,5 @@ body {
 .nav-item:active {
   color: darkred;
   font-size: 1.3rem;
+  text-decoration: overline;
 }

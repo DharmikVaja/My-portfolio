@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <>
       <nav
-        className=" navbar navbar-expand-lg  bg-secondary"
+        className=" navbar navbar-expand-lg  bg-warning-subtle"
         style={{ backgroundColor: "white" }}
         backgroundImage={{ Navbg }}
       >
@@ -51,7 +51,7 @@ function Navbar() {
               </li>
               <li className="nav-item">
                 <a className="nav-link " href="#">
-                  Contact
+                  How Work
                 </a>
               </li>
             </ul>
