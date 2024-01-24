@@ -1,16 +1,16 @@
 import React from "react";
 // import style from "./style.css";
 import App from "../App.js";
-import logo from "../component/MyLogo.png";
+import logo from "../../Resources/MyLogo.png";
 import "./navbar.css";
-import navbg from "./navbg.avif";
-// import "./style.css";
+import navbg from "../../Resources/navbg.jpeg";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 function Navbar() {
   return (
     <>
       <nav
-        className=" navbar navbar-expand-lg  bg-primary"
+        className=" navbar navbar-expand-lg  bg-secondary"
         style={{ backgroundColor: "white" }}
         backgroundImage={{ navbg }}
       >

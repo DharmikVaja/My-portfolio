@@ -1,0 +1,28 @@
+.bgImg {
+  opacity: 0.8;
+}
+body {
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+.img-fluid {
+  /* background-image: url("./bgImage.jpg"); */
+}
+
+.HeaderClass {
+  background-image: url("../../Resources/bgimg1.jpg");
+  background-image: no-repeat;
+  /* background-image: url; */
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  background-position: center;
+  height: 90vh;
+}
+
+.HeaderClass h4 {
+  z-index: 11;
+  color: white;
+  position: absolute;
+}

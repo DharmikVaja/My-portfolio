@@ -2,9 +2,9 @@
 // import "./App.css";
 import React from "react";
 // import "./component/style.css";
-import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./component/Navbar.js";
-import Header from "./component/Header.js";
+import "../../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+import Navbar from "./component/Navbar/Navbar.js";
+import Header from "./component/Header/Header.js";
 
 function App() {
   return (
